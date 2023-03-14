@@ -1,8 +1,11 @@
 import React from 'react'
 
-function Display() {
+function Display(props) {
   return (
-    <div>Display</div>
+    <div>
+        {props.meal}
+        {/* <h1>{meal.meals[0].strMeal}</h1> */}
+    </div>
   )
 }
 
